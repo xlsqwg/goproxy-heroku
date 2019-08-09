@@ -4,4 +4,4 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy http -t tcp -p :$PORT --daemon --forever --log proxy.log
+./proxy http -t tcp -p :3180 --daemon --forever --log proxy.log
